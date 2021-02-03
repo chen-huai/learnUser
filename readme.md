@@ -27,7 +27,7 @@ python manage.py runserver 0.0.0.0:8000
 
 ### 新建app
 
-* django-admin.py startapp app名称
+* `django-admin.py startapp app名称`
 * settings.py 中找到INSTALLED_APPS这一项，如下：
   ```
     INSTALLED_APPS = (
